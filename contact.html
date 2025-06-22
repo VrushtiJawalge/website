@@ -4,9 +4,10 @@
     <title>contact</title>
     <link rel="stylesheet" href="style.css">
    <style>
-         a:hover{
-            background-color: rgba(255, 255, 255, 0.992);
-            color: rgb(255,0,0);
+          a{
+            margin: 3px;
+            text-decoration-line: none;
+            color:  blueviolet;
         }
         #submit{
             color: white;
@@ -16,17 +17,23 @@
             background-color: rgba(128, 128, 128, 0.603);
 
         }
-        div{
-            margin: none ;
-            background-color: rgb(232, 179, 188);
+        #div{
+           background-color: black;
+           text-decoration: rgb(75, 28, 128);
+           margin: none;
+           padding: 10px;
         }
+          a:hover{
+                    text-decoration-line: underline ;
+                    color: blueviolet;
+                }
     </style>
 </head>
 <body>
-    <div>
-        <a href="hobbies.html" target="_blank">hobbies</a>
-        <a href="summary.html" target="_blank">summary</a>
-        <a href="contact.html" target="_blank">contact</a><hr></div>
+    <div id="div">
+        <a id="a" href="index.html" target="_blank">Index</a>
+        <a href="hobbies.html" target="_blank">Hobbies</a>
+        <a href="summary.html" target="_blank">Summary</a>></div>
     <h2>Contact</h2>
      <Form>
         <label>Name:</label><br>
@@ -35,7 +42,7 @@
         <input id="name" type="email" name="" id="email" placeholder="you@example.com"><br><br>
         <label for="Number">Number:</label><br>
         <input id="name" type="Contact" name="" id="contact" placeholder="Enter your contact no."><br><br>
-        <button id="submit"><a href="form.html">Submit</a></button>
+        <button id="submit"><a id="submit" href="form.html">Submit</a></button>
     </Form>
 </body>
 </html>
